@@ -1,0 +1,30 @@
+{
+  "name": "romero",
+  "version": "1.0.0",
+  "description": "projeto base para api",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean",
+    "start": "npm run build && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romeroleonardoalexandre/nodeapi.git"
+  },
+  "author": "Alexandre Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romeroleonardoalexandre/nodeapi/issues"
+  },
+  "homepage": "https://github.com/romeroleonardoalexandre/nodeapi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.2"
+  }
+}
